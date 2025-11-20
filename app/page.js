@@ -14,7 +14,7 @@ export default function Home() {
          }}
         >
             <img
-  src="/logow.png"
+  src="\logow.png"
   alt="Wingman Logo"
   style={{
     width: "100px",   // 🔥 perfect size
