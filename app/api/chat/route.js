@@ -1,4 +1,4 @@
-import { groq } from "../../lib/groq";
+import { groq } from "../../../lib/groq";
 
 export async function POST(req) {
   try {
@@ -18,6 +18,7 @@ STYLE RULES:
 - You *can* use bold text, bullet points, numbered steps, and small subheadings IF the user asks for a plan, guide, strategy, roadmap, steps, or explanation.
 - BUT don't use big markdown headings like "## Introduction" unless the user asks for a detailed breakdown.
 - Respond like you're actually talking to the user. Keep the vibe friendly, supportive, and clear.
+- Use emojis whenever required
 - Avoid repeating the question or adding unnecessary intros.
 - When giving lists, keep them clean and nicely spaced.
 
